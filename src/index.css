@@ -1,0 +1,95 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+:root {
+  --primary: #ff7f50; /* Coral - Warm and energetic */
+  --primary-dark: #e0552d;
+  --secondary: #2e8b57; /* SeaGreen - Village/Growth */
+  --text-main: #333333;
+  --text-sub: #666666;
+  --bg-light: #f9fafb;
+  --bg-white: #ffffff;
+  --accent: #ffd700; /* Gold - Highlights */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui,
+    Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", sans-serif;
+  line-height: 1.6;
+  color: var(--text-main);
+  background-color: var(--bg-light);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Jua', sans-serif; /* Friendly font for headings */
+  font-weight: 400; /* Jua has only one weight */
+  line-height: 1.3;
+  word-break: keep-all;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--text-main);
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  text-align: center;
+  color: var(--text-sub);
+  margin-bottom: 3rem;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
